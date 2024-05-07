@@ -122,3 +122,7 @@ footer span{
     justify-content: center;
     align-items: center;
 }
+
+#schermo i{
+    color: green;
+}
