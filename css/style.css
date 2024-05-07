@@ -5,3 +5,39 @@
     box-sizing: border-box;
 }
 
+/* formattazione generale */
+body{
+    background-color: black;
+    font-family: "Lato", sans-serif;
+}
+
+/* formattazione corpo pagina */
+#mosaico{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    flex-shrink: 0;
+    margin: 20px 50px;
+    height: calc(100vh - 40px);
+    /* debug */
+    background-color: yellow;
+}
+
+.webcam{
+    width: 350px;
+    height: 200px;
+    margin-bottom: 20px;
+    position: relative;
+    /* debug */
+    background-color: red;
+}
+
+.comandi_cam{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 5px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.4);
+}
