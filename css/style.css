@@ -43,14 +43,16 @@ body{
     flex-shrink: 0;
     margin: 0 50px;
     height: calc(100vh - 40px);
-    padding-top: 80px;
+    padding-top: 100px;
+    overflow-y: auto;
+    padding-bottom: 110px;
     /* debug */
     background-color: yellow;
 }
 
 .webcam{
-    width: 350px;
-    height: 200px;
+    width: 450px;
+    height: 300px;
     margin-bottom: 20px;
     position: relative;
     /* debug */
@@ -67,4 +69,33 @@ body{
     position: absolute;
     bottom: 0;
     left: 0;
+}
+
+/* formattazione footer */
+footer{
+    background-color: rgb(34 34 34);
+    height: 100px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 900;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer div{
+    color: white;
+}
+
+#gestione_chiamata{
+    width: 50%;
+    background-color: aqua;
+}
+
+.laterali{
+    width: 20%;
+    /* debug */
+    background-color: darkcyan;
 }
