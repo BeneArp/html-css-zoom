@@ -89,8 +89,6 @@ footer{
 
 #gestione_chiamata{
     width: 50%;
-    /* debug */
-    background-color: aqua;
 }
 
 .laterali{
@@ -108,14 +106,19 @@ footer{
     align-items: center;
 }
 
-.audio_video span{
+footer span{
     font-size: 14px;
 }
-
-
 
 .icona i{
     display: block;
     text-align: center;
     font-size: 35px;
+}
+
+#gestione_chiamata{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
 }
