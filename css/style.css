@@ -82,8 +82,9 @@ footer{
     justify-content: space-between;
 }
 
-footer div{
+footer{
     color: white;
+    font-size: 18px;
 }
 
 #gestione_chiamata{
@@ -93,7 +94,28 @@ footer div{
 }
 
 .laterali{
-    width: 20%;
+    width: 10%;
+    position: relative;
     /* debug */
     background-color: darkcyan;
+}
+
+.audio_video{
+    height: 100%;
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+    align-items: center;
+}
+
+.audio_video span{
+    font-size: 14px;
+}
+
+
+
+.icona i{
+    display: block;
+    text-align: center;
+    font-size: 35px;
 }
