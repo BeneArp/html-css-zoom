@@ -94,8 +94,6 @@ footer{
 .laterali{
     width: 10%;
     position: relative;
-    /* debug */
-    background-color: darkcyan;
 }
 
 .audio_video{
@@ -125,4 +123,15 @@ footer span{
 
 #schermo i{
     color: green;
+}
+
+#fine_riunione{
+    color: red;
+    background-color: rgb(74 74 74);
+}
+
+#fine_riunione div{
+    text-align: center;
+    vertical-align: middle;
+    margin-top: 25px;
 }
